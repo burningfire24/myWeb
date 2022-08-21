@@ -5,6 +5,46 @@ body{
     background: #CFE8A9;
     color: grey;
 }
+/* nav bar*/
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: rgb(241, 231, 232);
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+    transition: 0.4s;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 10px 20px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px ;
+}
+
+.navbar ul li a:hover{
+    color: brown;
+}
+.img{
+    height: 40px;
+    width: 200px;
+}
+
+.navbar.active{
+    background-color: black;
+} 
+.navbar.active ul li a{
+    color: white;
+}
+
+/* nav bar*/
 
 img{
     display: block;
